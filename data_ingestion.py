@@ -84,7 +84,7 @@ def explore_fund_master(df: pd.DataFrame) -> None:
         "fund houses": ["fund_house", "amc", "amc_name", "mutual_fund_family"],
         "categories": ["category", "scheme_category"],
         "sub-categories": ["sub_category", "subcategory", "scheme_sub_category"],
-        "risk grades": ["risk_grade", "risk", "riskometer", "risk_level"],
+        "risk grades": ["risk_grade", "risk_category", "risk", "riskometer", "risk_level"],
     }
 
     for label, candidates in fields.items():

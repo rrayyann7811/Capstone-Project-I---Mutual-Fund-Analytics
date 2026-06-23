@@ -1,2 +1,3 @@
 dataset,anomaly
-raw_data,No provided CSV datasets found in data/raw
+04_monthly_sip_inflows.csv,missing values: yoy_growth_pct=12
+amfi_validation,0 fund_master code(s) missing from nav_history
