@@ -1,0 +1,17 @@
+table_name,expected_rows,actual_rows,status
+cleaned_aum_by_fund_house,90,90,match
+cleaned_benchmark_indices,8050,8050,match
+cleaned_category_inflows,144,144,match
+cleaned_fund_master,40,40,match
+cleaned_industry_folio_count,21,21,match
+cleaned_investor_transactions,32778,32778,match
+cleaned_monthly_sip_inflows,48,48,match
+cleaned_nav_history,64320,64320,match
+cleaned_portfolio_holdings,322,322,match
+cleaned_scheme_performance,40,40,match
+dim_date,1608,1608,match
+dim_fund,40,40,match
+fact_aum,90,90,match
+fact_nav,64320,64320,match
+fact_performance,40,40,match
+fact_transactions,32778,32778,match

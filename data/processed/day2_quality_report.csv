@@ -1,0 +1,14 @@
+dataset,source_rows,cleaned_rows,notes
+fund_master,40,40,Cleaned rows match source rows
+nav_history,46000,64320,NAV expanded to calendar dates with forward-fill
+aum_by_fund_house,90,90,Cleaned rows match source rows
+monthly_sip_inflows,48,48,Cleaned rows match source rows
+category_inflows,144,144,Cleaned rows match source rows
+industry_folio_count,21,21,Cleaned rows match source rows
+scheme_performance,40,40,Cleaned rows match source rows
+investor_transactions,32778,32778,Cleaned rows match source rows
+portfolio_holdings,322,322,Cleaned rows match source rows
+benchmark_indices,8050,8050,Cleaned rows match source rows
+nav_history,46000,64320,18320 forward-filled NAV row(s); all NAV values > 0
+investor_transactions,32778,32778,transaction_type and kyc_status enums validated; amount_inr > 0
+scheme_performance,40,40,0 return anomaly row(s); 0 expense ratio anomaly row(s)
